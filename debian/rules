@@ -35,7 +35,7 @@ debian/stamp-install:
 
 	find
 
-	dh install --after dh_install
+	dh install --after dh_installman
 	touch $@
 
 endif
