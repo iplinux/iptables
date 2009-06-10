@@ -35,9 +35,6 @@ debian/stamp-install:
 
 	find
 
-	# BTS 509386
-	mv debian/iptables/usr/sbin/iptables-xml debian/iptables/usr/bin
-
 	dh install --after dh_install
 	touch $@
 
